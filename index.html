@@ -1,167 +1,122 @@
 <!doctype html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <title>Manikandan | Portfolio</title>
     <link rel="stylesheet" href="MyStyle.css" />
-  </head>
-  <body>
-    <header id="Pheader">
-      <div id="SlaceName">
-        <span class="slash">/</span>
-        <div class="name1">
-          <strong>Manikandan <br />
-            <small>Student</small>
-          </strong>
-        </div>
-      </div>
-      <div id="Tabs">
-        <a href="#AboutMe">About Me</a>
-        <a href="#Skils">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#resume"> Resume </a>
-        <a href="#contact">Contact Me</a>
-      </div>
-    </header>
-    <main>
-      <section style="margin-top: 100px;"><div class="abHead" id="AboutMe">
-        <h2>About Me</h2>
-      </div>
-      <div style="margin: 20px; display: flex">
-        <div style="padding-right: 10px; width: 50%">
-          <img src="images\profile\profile_image.jpg" width="100%" />
-        </div>
-        <p style="width: 50%">
-            <br>
-            <br>
-          I am a final-year Computer Science Engineering student with a strong interest in software development and problem-solving. I have hands-on experience with Java, SQL, and database-driven applications, and I have worked on academic projects involving full-stack system design and implementation. I enjoy learning concepts step by step and applying them to real-world problems, with a focus on writing clear, logical, and efficient code.<br>
-           <br>
-            <br>
-         I am currently seeking entry-level opportunities where I can enhance my technical skills, contribute to practical software solutions, and grow as a professional software engineer.I am eager to start my career as a software developer where I can apply my technical skills, learn from real-world projects, and contribute effectively to a professional development team.
-
-        </p>
-      </div>
-    </section>
-      
-      <div style="margin-top: 90px;">
-        <div class="abHead">
-          <h1 id="Skils">Skills</h1>
-          <h3 class="skillSub">Programming Language</h3>
-        </div>
-        <div class="skillImage">
-          <img src="images\html1.png" />
-          <img src="images\css1.png" />
-          <img src="images\js1.png" />
-          <img src="images\java1.png" />
-          <img src="images\sql1.png" />
-        </div>
-        <div>
-          <h3 class="skillSub">Tools</h3>
-        </div>
-        <div class="Tools">
-          <img src="images\tools\mysql1.png" />
-          <img src="images\tools\vs1.png" />
-          <img src="images\tools\github1.png" />
-          <img src="images\tools\eclipse1.png" />
-          <img src="images\tools\git1.png" />
-        </div>
-      </div>
-      <section id="projects">
-        <h2>Projects</h2>
-        <div class="project-container">
-
-          <div class="project-card">
-            <h3>Multi-Factor Authentication System(On Progress)</h3>
-            <p>
-              A three-level authentication system for high-security applications
-              using Email OTP, image-based authentication, and matrix password
-              verification.
-            </p>
-            <p class="tech">Tech: HTML, CSS, JavaScript, Java, MySQL</p>
-          </div>
-
-
-          <div class="project-card">
-            <h3>E-Commerce Lite Website</h3>
-            <p>
-              A simple e-commerce web app with product listing, cart
-              functionality, and basic checkout flow.
-            </p>
-            <p class="tech">Tech: HTML, CSS, JavaScript</p>
-          </div>
-
-
-          <div class="project-card">
-            <h3>Task Tracker</h3>
-            <p>
-              List all the daily task and mark the completed task and the make remove of it.
-            </p>
-            <p class="tech">Tech: Html,Css,Node.js,JavaScript</p>
-            <div class="project-links">
+</head>
+<body>
+    <header>
+        <div id="SlaceName">
+            <span class="slash">/</span>
+            <div class="name1">
+                <strong>Manikandan<br><small>Software Engineer</small></strong>
             </div>
-          </div>
         </div>
-      </section>
-      <section id="resume">
-  <h2>Resume</h2>
-  <p>Download my resume to know more about my skills</p>
+        <nav id="Tabs">
+            <a href="#AboutMe">About</a>
+            <a href="#Skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-  <a href="resume/Manikandan_Resume.pdf" download class="resume-btn">
-    Download Resume
-  </a>
-</section>
+    <main>
+        <section id="AboutMe">
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="images/profile/profile_image.jpg" alt="Manikandan Profile" />
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        I am a final-year Computer Science student specializing in **Java, SQL, and Android Development**. 
+                        I focus on building efficient, offline-first mobile applications and mastering Data Structures and Algorithms for high-performance software.
+                        I am currently preparing for technical roles where I can apply my skills in full-stack system design and project planning.
+                    </p>
+                    <br>
+                    <a href="resume/Manikandan_Resume.pdf" download class="resume-btn">Download Resume</a>
+                </div>
+            </div>
+        </section>
 
+        <section id="Skills">
+            <h2>Technical Expertise</h2>
+            <h3 style="text-align: center; margin-bottom: 20px;">Languages & Core</h3>
+            <div class="skill-grid">
+                <img src="images/java1.png" alt="Java" title="Java" />
+                <img src="images/sql1.png" alt="SQL" title="SQL" />
+                <img src="images/html1.png" alt="HTML5" title="HTML5" />
+                <img src="images/css1.png" alt="CSS3" title="CSS3" />
+                <img src="images/js1.png" alt="JavaScript" title="JavaScript" />
+            </div>
+            
+            <h3 style="text-align: center; margin: 40px 0 20px;">Tools & Mobile</h3>
+            <div class="skill-grid">
+                <img src="images/tools/git1.png" alt="Git" title="Git" />
+                <img src="images/tools/mysql1.png" alt="MySQL" title="MySQL" />
+                <img src="images/tools/github1.png" alt="GitHub" title="GitHub" />
+                </div>
+        </section>
 
-      <section id="contact">
-        <h2>Contact Me</h2>
-  <form class="contact-form" 
-      action="https://formspree.io/f/xkovvaop" 
-      method="POST">
+        <section id="projects">
+            <h2>Featured Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <h3>Micro-Finance Management App</h3>
+                    <p>An offline-first Android application with SQLite integration, featuring automated payment schedules and bilingual support (English/Tamil).</p>
+                    <span class="tech-tag">Android, Java, SQLite, Figma</span>
+                </div>
 
-  <div class="form-group">
-    <input type="text" name="name" placeholder="Your Name" required />
-  </div>
+                <div class="project-card">
+                    <h3>Multi-Factor Auth System</h3>
+                    <p>Advanced security system using Email OTP, image-based authentication, and matrix verification.</p>
+                    <span class="tech-tag">Java, MySQL, Web</span>
+                </div>
 
-  <div class="form-group">
-    <input type="email" name="email" placeholder="Your Email" required />
-  </div>
+                <div class="project-card">
+                    <h3>Finance Collection UI</h3>
+                    <p>A minimalist Figma design for financial services, optimized for 360x800px mobile screens.</p>
+                    <span class="tech-tag">Figma, UI/UX</span>
+                </div>
+            </div>
+        </section>
 
-  <div class="form-group">
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-  </div>
-
-  <button type="submit">Send Message</button>
-
-</form>
-      </section>
+        <section id="contact">
+            <h2>Get In Touch</h2>
+            <form class="contact-form" action="https://formspree.io/f/xkovvaop" method="POST">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Name" required />
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Email" required />
+                </div>
+                <div class="form-group">
+                    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
+
     <script>
-const form = document.querySelector(".contact-form");
-
-form.addEventListener("submit", async function(e) {
-  e.preventDefault();
-
-  const data = new FormData(form);
-
-  const response = await fetch(form.action, {
-    method: "POST",
-    body: data,
-    headers: { 'Accept': 'application/json' }
-  });
-
-  if (response.ok) {
-    alert("Thanks for your message. Have a Good Day 😊");
-    form.reset();
-  } else {
-    alert("Something went wrong. Try again.");
-  }
-});
-</script>
-  </body>
+        const form = document.querySelector(".contact-form");
+        form.addEventListener("submit", async function(e) {
+            e.preventDefault();
+            const data = new FormData(form);
+            const response = await fetch(form.action, {
+                method: "POST",
+                body: data,
+                headers: { 'Accept': 'application/json' }
+            });
+            if (response.ok) {
+                alert("Thanks for your message. Have a Good Day 😊");
+                form.reset();
+            } else {
+                alert("Error While sending message.Please Send Again 😊");
+            }
+        });
+    </script>
+</body>
 </html>
-
-
-
-
-
